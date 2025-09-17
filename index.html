@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Mayank Sagar's modern AI/Machine Learning portfolio - Hackathons, Projects, and Web Development" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="portfolio, AI, Machine Learning, Hackathons, Web Developer, Mayank Sagar" />
+  <title>Mayank Sagar | AI & Web Developer</title>
+  
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+
+  <nav>
+    <div class="logo">Mayank Sagar</div>
+    <ul>
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div id="hamburger">&#9776;</div>
+  </nav>
+
+  <section id="home" class="section">
+    <h1>Hello, I'm <span class="highlight">Mayank Sagar</span></h1>
+    <p class="intro">AI Enthusiast | ML Explorer | Web Dev</p>
+    <button class="cta-btn" onclick="smoothScroll('#projects')">View My Projects 🚀</button>
+    <div class="social-links">
+      <a href="https://github.com/your-github-username" target="_blank" class="social-btn github-btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/your-linkedin-username" target="_blank" class="social-btn linkedin-btn">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="assets/pic.jpeg" alt="Mayank Sagar Profile" class="about-img" />
+      <div class="about-details">
+        <ul>
+          <li>
+            <span class="icon icon-user"></span>
+            <strong>Name:</strong> Mayank Sagar
+          </li>
+          <li>
+            <span class="icon icon-graduation"></span>
+            <strong>BCA 2nd-year (3rd semester), CCSU</strong>
+          </li>
+          <li>
+            <span class="icon icon-bulb"></span>
+            Passionate about <b>AI</b>, <b>Machine Learning</b>, <b>Hackathons</b>, <b>Web Development</b>
+          </li>
+          <li>
+            <span class="icon icon-trophy"></span>
+            Hackathon Winner (AI Image Generator using diffusion models)
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section reveal">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <div class="project-img">
+        <img src="assets/ai image genearator.jpeg" alt="AI Image Generator Project" class="project-img" />
+      </div>
+      <div class="project-info">
+        <h3>AI Image Generator 🖼️</h3>
+        <p>An AI-powered text-to-image generator built using diffusion models that converts prompts into stunning images.</p>
+        <a href="https://colab.research.google.com/drive/1eCzUsW2On6YOrDeJycj9Q8SHlFBf5qHZ?usp=sharing" target="_blank" class="live-demo-btn">Live Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section reveal">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <span>Python</span>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Machine Learning</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <span>AI</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <span>REST APIs</span>
+        <div class="bar"><div style="width:70%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Hackathons</span>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Problem Solving</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section reveal">
+    <h2>Contact</h2>
+    <form class="contact-form" autocomplete="off">
+      <input type="text" placeholder="Name" name="name" required />
+      <input type="email" placeholder="Email" name="email" required />
+      <textarea placeholder="Message" name="message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Mayank Sagar | Crafted with passion for AI & Web.</p>
+  </footer>
+</body>
+</html>
